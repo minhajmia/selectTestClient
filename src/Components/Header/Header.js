@@ -12,17 +12,8 @@ const Header = () => {
           <img src={logo} alt="" />
         </div>
       </div>
-      <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="tests">Tests</Link>
-          </li>
-        </ul>
-      </div>
-      <div className="navbar-end">
+      <div className="navbar-center hidden lg:flex"></div>
+      <div className="navbar-end md:hidden ">
         <img src={img} alt="" />
       </div>
     </div>
