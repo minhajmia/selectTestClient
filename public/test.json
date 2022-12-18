@@ -1,0 +1,36 @@
+[
+{
+    "name": "male fertility test",
+    "type": "advance",
+    "time": "48 hours/ 2 days",
+    "parametersNumber": "12 parameters",
+    "parametersName":["semen volume","total sperm number","sperm concentration","vitality"],
+    "Rs" : 650
+},
+{
+    "name": "Heavy Bleeding- Menstrual",
+    "type": "basic",
+    "time": "72 hours/ 3 days",
+    "required": "10-12 hours fasting required",
+    "parametersNumber": "12 parameters",
+    "parametersName":["Urine Hcg","CBC","tsh","ferretin Test"],
+    "Rs" : 1249
+},
+{
+    "name": "Pcos - basic 1",
+    "type": "basic",
+    "time": "24 hours/ 1 days",
+    "parametersNumber": "11 parameters",
+    "parametersName":["total testoterone","free testoterone","tsh","prolactin"],
+    "Rs" : 899
+},
+{
+    "name": "Menstrual irregularities",
+    "type": "basic",
+    "time": "24 hours/ 1 days",
+    "required": "drink 3-4 glasses of water before test",
+    "parametersNumber": "6 parameters",
+    "parametersName":["lh","fsh","tsh","prolactin"],
+    "Rs" : 659
+}
+]

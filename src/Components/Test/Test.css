@@ -1,0 +1,47 @@
+.btn-design {
+    background: #008DB9;
+    border-radius: 28px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 26px;
+    border: none;
+    padding: 10px 24px;
+    color: #fff;
+    font-family: 'Roboto';
+}
+.panel-type, .report, .parameter-number, .parameter-name, .required, .view-all{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #333333;
+}
+.view-all{
+    color: #008DB9;
+}
+.required{
+    padding: 4px 8px;
+    background-color: #F5EDB3;
+}
+.rs-price{
+    font-size: 14px;
+}
+.rs-price-rate{
+    font-size: 18px;
+}
+.cart-design{
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    padding:12px;
+    margin: 14px;
+}
+
+.card-title{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #333333;
+}
+.card-body{
+    padding: 12px;
+}

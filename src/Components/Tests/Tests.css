@@ -1,0 +1,39 @@
+.tests-container{
+    background-color: #ffff;
+    border: 1px solid #D3D3D3;
+    border-radius: 8px;
+    margin: 0 35px;
+}
+.tests-heading{
+    color: #333333;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+}
+.tests-subheading{
+    font-size: 14px;
+    margin: 5px 0 24px 0;
+}
+.sub-heading{
+     margin: 24px 0 16px 0;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+}
+.tests-subheading-design{
+    color: #008DB9;
+}
+.total-select{
+    padding: 12px 50px;
+    background: #008DB9;
+    border-radius: 28px;
+    margin: 58px  16px 43px 16px;
+    color: #ffff;
+    font-family: 'Roboto';
+    font-size: 18px;
+    line-height: 26px;
+}
+.search-design:focus{
+    outline: red;
+}
