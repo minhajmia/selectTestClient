@@ -22,8 +22,8 @@ const Test = ({ test, handleSelect, select }) => {
         </h3>
         <ul>
           {parametersName?.map((parameter) => (
-            <li className="parameter-name" key={parameter._id}>
-              <span className="dot"></span>
+            <li className="parameter-name " key={parameter._id}>
+              <span>* </span>
               {parameter}
             </li>
           ))}

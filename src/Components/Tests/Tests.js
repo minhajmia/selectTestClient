@@ -12,7 +12,7 @@ const Tests = () => {
   const [tests, setTests] = useState([]);
   const [select, setSelect] = useState(0);
   useEffect(() => {
-    fetch(`http://localhost:5000/allTestInfo`)
+    fetch(`test.json`)
       .then((res) => res.json())
       .then((data) => setTests(data));
   }, []);
