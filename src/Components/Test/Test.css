@@ -45,3 +45,12 @@
 .card-body{
     padding: 12px;
 }
+.selected-border {
+    border: 2px solid #9FC131;
+}
+.dot{
+    width: 5px;
+    height: 5px;
+    border-radius:50%;
+    background: #000;
+}

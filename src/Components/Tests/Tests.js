@@ -28,9 +28,7 @@ const Tests = () => {
 
   return (
     <div
-      className={`text-center tests-container pt-0 md:pt-5 mt-10 md:mt-0 rounded-lg  ${
-        select ? "border-x-lime-300" : "undefined"
-      } md:border-0`}
+      className={`text-center tests-container pt-0 md:pt-5 mt-10 md:mt-0 rounded-lg border-2  md:border-0`}
     >
       <h3 className="pt-10 tests-heading font-bold text-left ml-8 md:text-center md:ml-0">
         {" "}
@@ -59,7 +57,12 @@ const Tests = () => {
       <h2 className="sub-heading">Frequently booked tests</h2>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 bg-white rounded-md">
         {tests?.map((test) => (
-          <Test test={test} key={test._id} handleSelect={handleSelect} />
+          <Test
+            test={test}
+            key={test._id}
+            handleSelect={handleSelect}
+            select={select}
+          />
         ))}
       </div>
       <h3 className="total-select">Add Tests( {select} selected)</h3>

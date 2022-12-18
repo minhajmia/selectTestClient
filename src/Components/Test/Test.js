@@ -2,12 +2,12 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Test.css";
 
-const Test = ({ test, handleSelect }) => {
+const Test = ({ test, handleSelect, select }) => {
   const { name, Rs, parametersName, parametersNumber, required, time, type } =
     test;
 
   return (
-    <div className="card cart-design capitalize ">
+    <div className={`card cart-design capitalize`}>
       <div className="card-body text-left">
         <div className="flex justify-between items-center">
           <h2 className="card-title ">{name}</h2>
@@ -22,8 +22,8 @@ const Test = ({ test, handleSelect }) => {
         </h3>
         <ul>
           {parametersName?.map((parameter) => (
-            <li className="parameter-name">
-              <input type="radio" />
+            <li className="parameter-name" key={parameter._id}>
+              <span className="dot"></span>
               {parameter}
             </li>
           ))}
